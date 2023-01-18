@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+.hr{
+   opacity: 0.3;
+   margin: 10px 0 5px 0;
+}
+
+
+ /* header start */
+
+
+[class*="col-"]{
+    width: 100%;
+ }
+
+ [class*="col-"]{
+   float: left;
+   width: 100%;
+ }
+ .header::after{
+    content: '';
+    display: table;
+    clear: both;
+ }
+ .item{
+    margin: 8px 20px 5px 20px;
+    display: flex;
+ }
+ .item img{
+    height: 60px;
+    margin: 30px 15px 20px 20px;
+ }
+ .item .fa-solid{
+    font-size: 20px;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0px 20px 10px 18px;
+ }
+ .item .fa-phone, .fa-envelope, .fa-clock{
+    color: #82B7DF;
+ }
+ .item p{
+    color: gray;
+ }
+ .item p span{
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+ }
+.header::after{
+   content: "";
+   clear: both;
+   display: table;
+}
+
+
+ /* header end */
+
+ /* Menu and profile start */
+
+
+ .menubar{
+  background-image: url(profile.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  padding-top: 10px;
+  background-size: 100% 100%;
+  position: relative;
+ }
+ .textbox{
+   width: 77%;
+   background-color: white;
+   margin: 0 auto;
+   padding: 10px;
+   display: flex;
+   border-radius: 5px;
+ }
+
+ .menubar p{
+   color: gray;
+   font-weight: bold;
+   
+   font-size: 15px;
+ }
+ .fa-caret-down{
+   color: gray;
+ }
+ i.fa-solid{
+   margin-left: 85%;
+   font-size: 20px;
+ }
+ .menu-item{
+   width: 80%;
+   background-color: #82B7DF;
+   border-radius: 5px;
+   margin: 0 auto;
+   display: none;
+   z-index: 10;
+ }
+ .menu-item ul{
+  padding: 5px 0 5px 0;
+  margin-top: 5px;
+ }
+ .menu-item ul li{
+   list-style: none;
+   margin: 5px 0 5px 0;
+   padding: 10px;
+ }
+ .menu-item ul li:hover{
+   background-color: #9cc5e4;
+ }
+ .menu-item ul a{
+   text-decoration: none;
+   color: aliceblue;
+ }
+ #check{
+   display: none;
+ }
+ #check:checked ~ .menu-item{
+   display: block;
+ }
+.profile-text{
+  position: absolute;
+  top: 263px;
+  left: 40px;
+  z-index: 0;
+}
+.profile-text h1{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 56px;
+}
+.profile-text p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+.profile-text button{
+  margin-top: 20px;
+  padding: 7px 45px 7px 45px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  background-color: #e8631c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.menubar::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Menu and profile end*/
+
+
+/* dance-part start */
+
+
+.dance-tour{
+  text-align: center;
+  background-color:  #e8631c;
+  padding: 37px 10px 35px 10px;
+}
+.dance-tour h1{
+  color: white;
+  padding-bottom: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+.dance-tour p{
+  color: white;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.dance-card{
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 60%;
+  background-color: #303030;
+  transition: 0.3s;
+}
+.dance-card img{
+  height: 100%;
+  width: 100%;
+}
+.dance-card h3{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  padding: 5px 0 5px 0;
+}
+.dance-card p{
+  font-size: 17px;
+  padding-bottom: 17px;
+}
+.dance-card:hover{
+  box-shadow: 10px 10px 40px black;
+}
+.dance-tour::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* dance part end */
+
+/* pricing start */
+
+.pricing{
+  background-color:  #303030;
+  text-align: center;
+  padding: 37px 10px 35px 10px;
+}
+.pricing h1{
+  color: white;
+  padding-bottom: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.pricing p{
+  color: white;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.base-card{
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 55%;
+  background-color:  #e8631c;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s;
+}
+.base-card h3{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  padding: 5px 0 5px 0;
+}
+.base-card p{
+  font-size: 15px;
+  padding-bottom: 17px;
+}
+.base-card button{
+  border: none;
+  padding: 10px 70px 10px 70px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #303030;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.base-card:hover{
+  box-shadow: 10px 10px 40px black;
+}
+.pricing::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* pricing end */
+
+
+/* amazing dance star */
+
+
+.dance-img{
+  height: 380px;
+  width: 100%;
+  background-color: #e8631c;
+  display: flex;
+}
+.dance-img .img-part{
+  height: 100%;
+  width: 50%;
+}
+.dance-img .img-part img{
+  height: 100%;
+  width: 100%;
+}
+.container-part{
+  height: 100%;
+  width: 50%;
+  text-align: center;
+} 
+.container-part h1{
+  color: white;
+  font-size: 33px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  padding: 95px 20px 10px 20px;
+}
+.container-part p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
+  padding: 0 20px 20px 20px;
+}
+.container-part button{
+  border: none;
+  padding: 8px  40px 8px 40px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #303030;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dance-img::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+/* amazing dance end */
+
+/* static start */
+
+.static{
+  text-align: center;
+  height: 400px;
+  padding: 100px 10px;
+  background-color:  #303030;
+}
+.static h1{
+  font-family: 'Oswald', sans-serif;
+  /* font-weight: normal; */
+  color: white;
+  padding-bottom: 10px;
+}
+.static p{
+  color: white;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding:  0 0 20px 0 ;
+}
+.club{
+  padding: 20px;
+}
+.club h1{
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+}
+.club p{
+  padding: 0;
+  font-size: 18px;
+}
+
+
+/* static end */
+
+/* SUBSCRIBE START */
+
+.subscribe{
+  height: 270px;
+  width: 100%;
+  background-color: #e8631c;
+  text-align: center;
+  padding: 20px;
+}
+.subscribe h1{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  padding: 40px 0 20px 0;
+}
+.subscribe p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+.input-field{
+  font-size: 0;
+}
+.subscribe .input-field input{
+  border: none;
+  height: 31px;
+  width: 50%;
+  padding-left: 10px;
+}
+.subscribe .input-field button{
+  border: none;
+  font-size: 11px;
+  padding: 10px 10px;
+  background-color:  #303030;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* SUBSCRIBE end */
+
+
+/* footer start */
+
+
+.footer{
+  background-color: #121315;
+  padding: 50px;
+  padding-bottom: 20px;
+}
+.part4{
+  margin-bottom: 20px;
+}
+.part4 h2{
+  color: white;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  padding-bottom: 22px;
+}
+.part4 p{
+  padding-bottom: 15px;
+  color: rgb(206, 199, 199);
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+.part4 p a{
+  text-decoration: none;
+  color: rgb(209, 203, 203);
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  transition: 0.2s linear;
+}
+.part4 p a:hover{
+  color: rgb(0, 238, 255);
+}
+.social-icon{
+  margin-top: 10px;
+}
+.social-icon a{
+  margin-left: 10px;
+}
+.part4 a .fa-brands{
+  font-size: 22px;
+  padding: 6px;
+  border-radius: 5px;
+}
+.part4 i{
+  background-color: #bac6d9;
+  color: #121315;
+  
+}
+.social-icon a i.f{
+  padding: 6px 9px;
+}
+.social-icon a i.w{
+  padding: 6px 8px;
+}
+
+
+.designer{
+  background-color: black;
+  padding: 10px;
+}
+.designer h5{
+  color: gray;
+  font-weight: normal;
+  text-align: center;
+}
+.designer h5 a{
+  text-decoration: none;
+  color: rgb(35, 98, 233);
+}
+
+
+/* footer end */
+

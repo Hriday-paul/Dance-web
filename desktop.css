@@ -1,0 +1,236 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+ /* header start */
+
+
+.item{
+    margin: 0;
+    padding-top: 19px;
+    text-align: center;
+ }
+ .item img{
+    height: 55px;
+    margin: 0;
+    padding-left: 19px;
+ }
+
+
+ /* header end */
+
+
+  /* Menu and profile start */
+
+
+ .textbox{
+    display: none;
+ }
+ .menubar{
+   height: 93vh;
+   padding-top: 0;
+ }
+ .menu-item{
+   width: 100%;
+   text-align: center;
+   margin: 0 auto;
+   display: block;
+ }
+ .menu-item ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #82B7DF;
+ }
+ .menu-item ul li{
+    border-radius: 5px;
+    transition: 0.3s;
+ }
+ .menu-item ul li:hover{
+    background-color:  #9cc5e4;
+ }
+ .menu-item ul a{
+    margin: 5px 10px 5px 10px;
+ }
+ .profile-text{
+   top: 250px;
+   left: 50px;
+ }
+ .profile-text h1{
+   font-size: 65px;
+ }
+.profile-text p{
+   font-size: 20px;
+}
+.profile-text button{
+   margin-top: 30px;
+   padding: 7px 60px 7px 60px;
+   font-size: 20px;
+ }
+  /* Menu and profile end */
+
+/* dance-part start */
+
+.dance-tour{
+   padding: 60px 30px 60px 30px;
+ }
+ .dance-tour h1{
+   padding-bottom: 27px;
+   font-size: 50px;
+ }
+ .dance-tour p{
+   font-size: 20px;
+ }
+ .country-card{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+ .dance-card{
+   margin-top: 50px;
+   width: 30%;
+   height: 75%;
+ }
+ .dance-card img{
+   height: 65%;
+   width: 100%;
+ }
+ .dance-card h3{
+   font-size: 30px;
+   padding: 10px 0 10px 0;
+ }
+ .dance-card p{
+   font-size: 15px;
+   padding-bottom: 25px;
+ }
+
+ /* dance part end */
+
+ /* pricing start */
+
+ .pricing{
+   padding: 60px 30px 60px 30px;
+ }
+ .pricing h1{
+   padding-bottom: 27px;
+   font-size: 50px;
+ }
+ .pricing p{
+   font-size: 20px;
+ }
+ .pricing-card{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+ .base-card{
+   margin-top: 50px;
+   width: 25%;
+   height: 75%;
+ }
+ .base-card h3{
+   font-size: 30px;
+   padding: 10px 0 10px 0;
+ }
+ .base-card p{
+   font-size: 17px;
+   padding-bottom: 25px;
+ }
+
+
+ /* pricing end */
+
+ /* amazing dance start */
+
+
+ .dance-img{
+   height: 600px;
+   width: 100%;
+   background-color: #e8631c;
+   display: flex;
+ }
+ .container-part h1{
+   font-size: 60px;
+   padding: 190px 30px 20px 30px;
+ }
+ .container-part p{
+   font-size: 20px;
+   padding: 0 40px 40px 40px;
+ }
+ .container-part button{
+   padding: 10px  60px 10px 60px;
+   font-size: 20px;
+   margin-bottom: 10px;
+ }
+
+ /* amazing dance end */
+
+
+ /* static start */
+
+ .static{
+  height: 300px;
+  padding: 70px 10px;
+}
+.static h1{
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.static p{
+  font-size: 18px;
+  padding: 0 20px 20px 20px;
+}
+.club{
+  padding: 30px;
+}
+.club-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+
+/* static end */
+
+
+/* SUBSCRIBE START */
+
+
+.subscribe .input-field input{
+  height: 38px;
+  width: 25%;
+  padding-left: 15px;
+}
+.subscribe .input-field button{
+  font-size: 11px;
+  padding: 13px 10px;
+}
+
+
+/* SUBSCRIBE end */
+
+
+/* footer start */
+
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.part4{
+  width: 25%;
+  text-align: center;
+}
+
+/* footer end */
